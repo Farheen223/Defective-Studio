@@ -1,0 +1,1054 @@
+/* whole page */
+
+.mybody {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  width: 100%;
+}
+.Body2 {
+  background: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Russo one";
+  font-size: 80px;
+  margin: 30px;
+  color: white;
+}
+
+h2 {
+  font-family: oswald;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  padding: 26px;
+  font-size: 30px;
+}
+p {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 25px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+.p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.button {
+  font-family: roboto;
+  font-weight: 900;
+  color: black;
+  background: rgba(146, 241, 241, 0.5);
+  border-radius: 100px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  margin-top: 60px;
+  font-size: 3vh;
+}
+
+.flex-item {
+  padding: 3%;
+}
+
+/* header */
+
+.head {
+  height: 80px;
+  background-image: linear-gradient(
+    to right,
+    #92f0f8,
+    #8becff,
+    #b3cdfe,
+    #e4a8fe,
+    #f092de
+  );
+  box-shadow: 0 0 5px #555;
+  position: relative;
+  display: flex;
+  width: 100%;
+  font-family: roboto;
+}
+
+nav {
+  width: 100%;
+}
+
+nav input {
+  border-radius: 20px;
+  border: 2px solid black;
+  outline: none;
+  padding: 10px 5px 5px;
+  /*padding-left: 20px;
+  margin-left: 20px;*/
+}
+
+ul {
+  display: flex;
+  /*justify-content: center;*/
+  list-style: none;
+  margin: 0;
+  padding-right: 80;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+li {
+  line-height: 80px;
+  width: 190px;
+  margin: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li: hover {
+  color: white;
+}
+
+.logo {
+  margin-right: 52px;
+}
+
+.search {
+  width: 40px;
+}
+
+/* main */
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url(Assets/image2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.main-content {
+  margin: auto;
+  text-align: center;
+}
+
+.intro-head {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+.roundbox {
+  height: 1080px;
+  background: rgba(233, 202, 241, 0.5);
+  margin: 0px 25px 120px 25px;
+  margin-bottom: 50px;
+  border-radius: 80px;
+}
+
+.roundbox-2 {
+  background: rgb(212, 208, 235, 0.5);
+  border-radius: 50px;
+  height: 580px;
+  margin-right: 21px;
+  margin-bottom: 125px;
+  margin-left: 22px;
+}
+
+.col-1 .col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+/* section */
+
+.main-frame {
+  padding-top: 10px;
+  height: 1800px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #f3dffb,
+    #e4e0f7,
+    #cadafc,
+    #a9dbfa
+  );
+}
+
+.section-2 {
+  height: 500px;
+  background: linear-gradient(to right, #f3dffb, #e4e0f7, #cadafc, #a9dbfa);
+}
+.h7 {
+  font-family: oswald;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.easy,
+.medium,
+.hard {
+  font-weight: bold;
+  font-size: 34px;
+  border: solid;
+  border-radius: 100px;
+  height: 40px;
+  padding-top: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  padding-left: 80px;
+  padding-right: 170px;
+  width: 1px;
+  cursor: pointer;
+}
+
+.easy {
+  background: #bae9ca;
+}
+
+.medium {
+  background: #bae9e6;
+  padding-right: 200px;
+  padding-left: 60px;
+}
+
+.hard {
+  background: #f2b5b5;
+}
+
+.description {
+  font-family: roboto;
+  font-weight: 400;
+  padding: 20px;
+  background: white;
+  border-radius: 50px;
+  height: 94px;
+  font-size: 20px;
+  margin-right: 43px;
+}
+
+.roundbox-2 .flex-item {
+  padding-top: 20px;
+  margin-top: 0px;
+}
+.roundbox-2 iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+.roundbox-3 {
+  border-radius: 100px;
+  background: white;
+  width: 290px;
+  height: 80px;
+  text-indent: 88px;
+}
+
+/* footer */
+
+footer {
+  height: 500px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.Contact-us {
+  font-size: 40px;
+  text-align: left;
+  margin-top: initial;
+  font-weight: 30;
+  color: white;
+  background: #4d6e97;
+  border-radius: 100px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 4vh;
+  border: none;
+  cursor: pointer;
+  padding: 4%;
+}
+
+.Contact-us p {
+  font-size: 10px;
+}
+
+.map {
+  width: 400px;
+  height: 250px;
+  position: right;
+  border-radius: 30px;
+}
+
+.location flex-item {
+  border-radius: 100px;
+}
+
+footer .flex-container {
+  justify-content: center;
+}
+
+.p-contact {
+  color: white;
+}
+
+.track {
+  height: 20px;
+  width: 50px;
+  background: gray;
+  border-radius: 20px;
+}
+
+.slider {
+  height: 30px;
+  width: 30px;
+  background: white;
+  position: relative;
+  top: -25px;
+  border-radius: 50%;
+  left: 0;
+  transition: 0.3s;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + label .slider {
+  left: 20px;
+}
+
+.contrast .p-contact {
+  color: yellow;
+  font-family: arial;
+}
+
+/*Scratch*/
+
+.scratch {
+  background-image: linear-gradient(
+    to right,
+    #f3dffb,
+    #e4e0f7,
+    #cadafc,
+    #a9dbfa
+  );
+  /*width: 97.8vw;
+  height: 200vh;*/
+  padding-top: 63px;
+}
+
+.scratch-content {
+  height: 27vw;
+  /*width: 87vw;*/
+  background: url(Assets/switch.png);
+  font-weight: bold;
+  font-size: 40px;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 65px;
+  position: relative;
+  text-align: center;
+}
+
+.button-1 {
+  padding: 5px;
+  padding-top: 0px;
+  font-size: 60px;
+  font-family: oswald;
+  background: rgba(146, 241, 241, 0.5);
+  border-radius: 20px;
+  text-deconration: none;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+h6 {
+  font-family: oswald;
+  font-size: 34px;
+  padding-top: 38px;
+  text-decoration: underline;
+}
+.scratch-roundbox {
+  height: 1053px;
+  background: #eefff0;
+  margin-left: 72px;
+  margin-right: 70px;
+  border-radius: 99px;
+  text-align: center;
+  margin-top: 76px;
+  margin-bottom: 50px;
+}
+
+.scratch-greenbox {
+  padding-bottom: 25px;
+}
+
+.scratch-info {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  border-radius: 20px;
+  margin-top: -41px;
+  width: 678px;
+  height: 587px;
+}
+
+.play-button {
+  font-size: 60px;
+  font-family: oswald;
+  border-radius: 50px;
+  text-deconration: none;
+  position: relative;
+  margin-left: 64px;
+  background: rgba(69, 221, 175, 0.5);
+}
+
+/*About-us*/
+
+.About-us {
+  background-image: linear-gradient(
+    to right,
+    #f3dffb,
+    #e4e0f7,
+    #cadafc,
+    #a9dbfa
+  );
+  /*width: 100vw;
+  height: 150vh;*/
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.button2 {
+  padding: 5px;
+  padding-top: 0px;
+  font-size: 60px;
+  font-family: oswald;
+  border-radius: 20px;
+  top: 50%;
+  background: rgba(215, 153, 153, 0.5);
+  margin: 0 auto;
+  display: block;
+  margin-top: 206px;
+}
+
+.Aboutus-content {
+  height: 35vw;
+  width: 90vw;
+  background: url(Assets/image16.png);
+  font-weight: bold;
+  font-size: 40px;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.roundbox3 {
+  height: 500px;
+  width: 90%;
+  background: rgba(244, 210, 210, 0.5);
+  border-radius: 1000px;
+  padding-top: 84px;
+  position: relative;
+  display: flex;
+  align-item: center;
+  margin: 0 auto;
+}
+
+.pic {
+  width: 40vw;
+  height: 20vw;
+  background: url(Assets/image10.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  margin: 0px 93px 0px 138px;
+  /*margin: 0 auto;*/
+  display: block;
+}
+.white-box {
+  width: 372px;
+  height: 298px;
+  border-radius: 37px;
+  background-color: white;
+  color: black;
+  display: block;
+  margin: 21px 19px 24px 63px;
+}
+.white-box p {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 13px;
+}
+
+.roundbox3 span {
+  font-size: 100px;
+  position: absolute;
+  top: 184px;
+}
+
+.roundbox3 span:first-child {
+  left: 30px;
+}
+
+.roundbox3 span:last-child {
+  right: 30px;
+}
+
+/*contact*/
+
+.contact {
+  background-image: linear-gradient(
+    to right,
+    #f3dffb,
+    #e4e0f7,
+    #cadafc,
+    #a9dbfa
+  );
+  /*width: 100vw;
+  height: 190vh;*/
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.support {
+  padding: 5px;
+  padding-top: 0px;
+  font-size: 60px;
+  font-family: oswald;
+  border-radius: 20px;
+  background: rgba(242, 181, 181, 0.5);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.colour-box {
+  background: rgba(233, 202, 241, 0.5);
+  width: 484px;
+  margin-left: 50px;
+  border-radius: 50px;
+  /*margin-top: 240px;*/
+  position: absolute;
+  bottom: 50px;
+}
+
+.colour-box p {
+  font-family: roboto;
+  font-size: 18px;
+}
+
+.contact-content {
+  height: 31vw;
+  width: 90vw;
+  background: url(Assets/contact.png);
+  font-weight: bold;
+  font-size: 40px;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  margin-left: 65px;
+  position: relative;
+  background-size: contain;
+  text-align: center;
+}
+
+.roundbox4 {
+  height: 780px;
+  /*width: 1430px;*/
+  background: rgba(233, 202, 241, 0.5);
+  margin-left: 70px;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 70px;
+}
+.login_form {
+  margin: 0 auto;
+  width: 1037px;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.fname {
+  height: 50px;
+  width: 252px;
+  margin-right: 217px;
+  border-radius: 20px;
+}
+.fname-text {
+  font-weight: bold;
+  margin-right: 1px;
+  font-family: roboto;
+}
+
+.lname {
+  height: 50px;
+  width: 252px;
+  margin-right: 88px;
+  border-radius: 20px;
+}
+.lname-text {
+  font-weight: bold;
+  margin-right: 18px;
+  font-family: roboto;
+}
+
+.email {
+  width: 744px;
+  height: 60px;
+  border-radius: 20px;
+}
+.email-text {
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: 162px;
+  font-family: roboto;
+}
+
+.description1 {
+  height: 200px;
+  width: 770px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: black;
+}
+.decription-text {
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: 155px;
+  font-family: roboto;
+}
+
+.box-form {
+  display: flex;
+  justify-content: start;
+  margin-left: 164px;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 898px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*log in/sign up*/
+
+.login {
+  padding-top: 100px;
+  background: #a2dbdb;
+  height: 1000px;
+  /*width: 1600px;*/
+}
+
+.roundbox5 {
+  height: 786px;
+  /*width: 1500px;*/
+  background: rgba(224, 244, 241, 0.5);
+  margin-left: 200px;
+  margin-right: 200px;
+  /*margin:0 auto;*/
+  border-radius: 50px;
+}
+
+.signup {
+  font-family: roboto;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+.box-form1 {
+  justify-content: center;
+  /*margin-left: 527px;*/
+}
+
+.username-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 454px;
+  margin-top: 115px;
+}
+
+.username {
+  height: 60px;
+  /*width: 479px;*/
+  width: 50%;
+  margin-right: 217px;
+  border-radius: 20px;
+  justify-content: center;
+  padding-left: 315px;
+}
+
+.password-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 454px;
+  margin-top: 94px;
+}
+
+.password {
+  height: 60px;
+  /* width: 479px;*/
+  width: 50%;
+  margin-right: 88px;
+  padding-left: 315px;
+  border-radius: 20px;
+}
+
+h5 {
+  font-family: roboto;
+  font-size: 15px;
+  margin-left: 447px;
+}
+
+.button3 {
+  border-radius: 20px;
+  height: 28px;
+  width: 222px;
+  margin-left: 600px;
+  font-weight: bold;
+  background: rgba(201, 197, 197, 0.24);
+}
+.button4 {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 1002px;
+  background-color: #a2dbdb;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    display: block;
+  }
+
+  /*header*/
+  ul {
+    width: 90px;
+    font-size: 12px;
+  }
+  nav input {
+    width: 125px;
+    padding: 5px;
+  }
+  .logo {
+    margin-right: 0px;
+    margin-left: -9px;
+  }
+
+  li {
+    margin: 2px;
+    font-weight: bold;
+    text-align: center;
+  }
+  /*main*/
+
+  .roundbox-2 {
+    height: 1571px;
+  }
+  roundbox-2 .flex-item {
+    width: 90px;
+  }
+
+  .main-frame {
+    height: 2817px;
+  }
+  /*footer*/
+
+  footer {
+    background: black;
+    height: 1090px;
+  }
+
+  .Contact-us {
+    font-size: 20px;
+    padding: 1%;
+  }
+
+  .map {
+    width: 300px;
+    height: 200px;
+  }
+  .twitter {
+    margin-bottom: 61px;
+  }
+
+  /*scratch*/
+  .scratch-info {
+    position: initial;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .scratch-content {
+    margin-right: 49px;
+    margin-left: 40px;
+  }
+
+  .button-1 {
+    font-size: 30px;
+  }
+
+  .scratch-roundbox {
+    border-radius: 48px;
+  }
+  .game {
+    border-radius: 20px;
+    margin-top: 65px;
+    width: 398px;
+    height: 587px;
+  }
+  p {
+    font-size: 15px;
+    text-align: initial;
+  }
+
+  .play-button {
+    font-size: 30px;
+    margin-right: 50px;
+    border-radius: 20px;
+    height: 100px;
+    width: 300px;
+  }
+
+  /*about us*/
+
+  .button2 {
+    margin-top: 86px;
+    margin-left: 285px;
+    font-size: 30px;
+  }
+
+  .roundbox3 {
+    height: 257px;
+    width: 600px;
+    margin-left: 46px;
+    margin-bottom: 50px;
+    margin-top: 17px;
+  }
+
+  .pic {
+    width: 517px;
+    margin-left: 45px;
+    margin-top: -12px;
+    margin-right: 30px;
+  }
+
+  .white-box {
+    width: 333px;
+    height: 159px;
+    border-radius: 20px;
+    margin-right: 67px;
+    margin-top: -24px;
+  }
+
+  .white-box p {
+    font-size: 11px;
+    padding: 1px;
+  }
+
+  .roundbox3 span {
+    font-size: 50px;
+    top: 95px;
+    margin-left: -19px;
+    margin-right: -3px;
+  }
+
+  /* contact*/
+  .contact-content {
+    margin: 0 auto;
+  }
+  .support {
+    margin-left: 16px;
+    font-size: 36px;
+    margin-top: 11px;
+  }
+  .colour-box {
+    width: 266px;
+    position: absolute;
+    bottom: 13px;
+    margin-left: 25px;
+    border-radius: 15px;
+  }
+  .colour-box p {
+    font-size: 8px;
+  }
+
+  .login_form {
+    margin: 0 auto;
+    width: 1037px;
+    position: absolute;
+    left: -22px;
+  }
+
+  h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .fname {
+    height: 50px;
+    width: 199px;
+    margin-right: 30px;
+    border-radius: 20px;
+  }
+  .fname-text {
+    font-weight: bold;
+    margin-right: 1px;
+  }
+
+  .lname {
+    height: 50px;
+    width: 199px;
+    margin-right: 88px;
+    border-radius: 20px;
+  }
+  .lname-text {
+    font-weight: bold;
+    margin-right: 18px;
+  }
+
+  .email {
+    width: 444px;
+    height: 60px;
+    border-radius: 20px;
+  }
+  .email-text {
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 162px;
+  }
+
+  .description1 {
+    height: 200px;
+    width: 470px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: black;
+  }
+  .decription-text {
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 155px;
+  }
+
+  .box-form {
+    display: flex;
+  }
+
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 498px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .signup {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+  }
+  /*login*/
+
+  .roundbox5 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .box-form1 {
+    margin: 0 165px auto;
+  }
+  .username {
+    width: 310px;
+  }
+  .password {
+    width: 310px;
+  }
+
+  .button3 {
+    margin-left: 59px;
+  }
+
+  .button4 {
+    margin-left: 300px;
+  }
+}
